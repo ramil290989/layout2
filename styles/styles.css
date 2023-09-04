@@ -1,0 +1,185 @@
+:root {
+  --bg-color: #141024;
+  --bg-color-after-course: #F9F9F9;
+  --text-dark-color: #141024;
+  --text-red-color: #D52027;
+}
+body {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  line-height: 160%;
+}
+header {
+  background-color: var(--bg-color);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: var(--text-dark-color);
+}
+a {
+  font-size: 18px;
+  text-decoration: none;
+}
+.p-container {
+  font-size: 18px;
+  color: var(--text-dark-color);
+  opacity: 70%;
+  padding-top: 20px;
+}
+.nav-bar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.brand-text {
+  font-weight: 700;
+  font-size: 30px;
+  color: #FFF;
+  text-transform: uppercase;
+}
+.nav-link-text {
+  font-size: 20px;
+  color: #FFF;
+}
+.phone {
+  font-weight: 600;
+  font-size: 30px;
+  color: #FFF;
+}
+.header-content {
+  padding-top: 50px;
+  align-items: center;
+}
+.h1-header {
+  font-size: 70px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+.p-header {
+  font-size: 20px;
+  color: #FFF;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.btn-red {
+  font-size: 20px;
+  color: #FFF;
+  background: var(--text-red-color);
+  padding: 25px 54px;
+}
+.btn-red:hover {
+  background: #e02f35;
+  color: #FFF;
+}
+.girl-header {
+  max-width: 100%;
+}
+.about {
+  padding-top: 120px;
+}
+.about-h2 {
+  font-size: 30px;
+}
+.span-about {
+  font-weight: 400;
+}
+.about-content {
+  padding-top: 60px;
+}
+.about-h3 {
+  font-size: 70px;
+  color: var(--text-red-color);
+}
+.after-course {
+  background: var(--bg-color-after-course);
+  padding: 100px 0px;
+  margin-top: 120px;
+}
+.after-course-h2 {
+  font-size: 50px;
+}
+.after-course-content {
+  padding-top: 60px;
+}
+.after-course-h3 {
+  font-size: 24px;
+}
+.trainers {
+  padding-top: 120px;
+}
+.trainer-content {
+  padding-top: 60px;
+}
+.trainers-h2 {
+  font-size: 50px;
+}
+.trainer-h3 {
+  font-size: 24px;
+  padding-top: 20px;
+}
+.trainer-href {
+  color: var(--text-red-color);
+}
+.package {
+  padding-top: 120px;
+}
+.package-h2 {
+  font-size: 50px;
+}
+.package-content {
+  justify-content: space-around;
+  padding-top: 60px;
+  align-items: center;
+}
+.package-item {
+  border: solid 1px rgba(14, 10, 24, 0.3);
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.package-item:hover {
+  transition: 0.5s;
+  background: var(--bg-color);
+  > h3, h4, p {color: #FFF;}
+}
+.package-h3 {
+  font-size: 30px;
+}
+.package-h4 {
+  font-size: 50px;
+  padding-top: 60px;
+}
+.enrollment {
+  background: var(--text-red-color);
+  margin-top: 120px;
+  padding-bottom: 80px;
+}
+.enrollment-content {
+  padding-top: 105px;
+  justify-content: space-evenly;
+}
+.enrollment-content p {
+ color: #FFF;
+ opacity: 100;
+}
+.enrollment-h2 {
+  font-size: 36px;
+  color: #FFF;
+}
+.footer {
+  background: var(--bg-color);
+  padding: 40px 0;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-h2 {
+  font-size: 30px;
+  color: #FFF;
+  text-transform: uppercase;
+}
+.footer p {
+  color: #FFF;
+  text-transform: uppercase;
+}
